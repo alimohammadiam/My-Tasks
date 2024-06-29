@@ -38,11 +38,17 @@ class Transaction(models.Model):
         WITHDRAW = 'WI', 'withdraw'
         BALANCE_INQUIRY = 'BI', 'Balance_inquiry'
 
+    class Status(models.TextChoices):
+        DRAFT = 'DR', 'Draft'
+        PUBLISHED = 'PB', 'Published'
+        REJECTED = 'RJ', 'Rejected'
+
     transaction_type = models.CharField(max_length=2, choices=TransactionType.choices,
                                         default=TransactionType.BALANCE_INQUIRY)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     date_time = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='transaction')
+    status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
     account = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='transaction_account')
     description = models.TextField(null=True, blank=True)
 
