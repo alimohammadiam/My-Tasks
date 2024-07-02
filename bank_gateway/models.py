@@ -20,7 +20,7 @@ class Account(models.Model):
     password = models.CharField(max_length=100)
     publish = models.DateTimeField(default=timezone.now)
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
-    address = models.TextField()
+    address = models.TextField(null=True, blank=True)
 
     class Meta:
         ordering = ['-publish']
@@ -33,18 +33,19 @@ class Account(models.Model):
 
 
 class Transaction(models.Model):
-    class TransactionType(models.TextChoices):
-        DEPOSIT = 'DE', 'Deposit'
-        WITHDRAW = 'WI', 'withdraw'
-        BALANCE_INQUIRY = 'BI', 'Balance_inquiry'
+    class TransactionStatus(models.TextChoices):
+        SUCCESSFUL = 'ST', 'Successful transaction'
+        FAILED = 'FT', 'Transaction failed'
+        INSUFFICIENT_INVENTORY = 'II', 'Insufficient inventory'
+        REJECTED = 'RJ', 'Rejected'
 
     class Status(models.TextChoices):
         DRAFT = 'DR', 'Draft'
         PUBLISHED = 'PB', 'Published'
         REJECTED = 'RJ', 'Rejected'
 
-    transaction_type = models.CharField(max_length=2, choices=TransactionType.choices,
-                                        default=TransactionType.BALANCE_INQUIRY)
+    transaction_type = models.CharField(max_length=2, choices=TransactionStatus.choices,
+                                        default=TransactionStatus.REJECTED)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     date_time = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='transaction')
