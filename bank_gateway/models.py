@@ -44,8 +44,8 @@ class Transaction(models.Model):
         PUBLISHED = 'PB', 'Published'
         REJECTED = 'RJ', 'Rejected'
 
-    transaction_type = models.CharField(max_length=2, choices=TransactionStatus.choices,
-                                        default=TransactionStatus.REJECTED)
+    transaction_status = models.CharField(max_length=2, choices=TransactionStatus.choices,
+                                          default=TransactionStatus.REJECTED)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
     date_time = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='transaction')
@@ -60,5 +60,5 @@ class Transaction(models.Model):
         ]
 
     def __str__(self):
-        return f'{self.account.name} - {self.transaction_type} - {self.amount}'
+        return f'{self.account.name} - {self.transaction_status} - {self.amount}'
 
