@@ -66,6 +66,9 @@ def confirm_transaction(request):
                 return redirect('bank:create_transaction')
             else:
                 messages.error(request, 'رمز نادرست است')
+
+        else:
+            messages.error(request, 'کد را صحیح وارد کنید !')
     else:
         form = ConfirmTransactionForm()
 

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'bank_gateway.apps.BankGatewayConfig',
     'bank.apps.BankConfig',
+    'captcha',
 ]
 
 MIDDLEWARE = [
@@ -114,6 +115,12 @@ USE_I18N = True
 
 USE_TZ = True
 
+
+# # CAPTCHA configurations (optional, for custom settings)
+
+CAPTCHA_IMAGE_SIZE = (150, 50)
+CAPTCHA_FONT_SIZE = 32
+CAPTCHA_LENGTH = 6
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/

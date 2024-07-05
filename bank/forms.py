@@ -1,4 +1,5 @@
 from django import forms
+from captcha.fields import CaptchaField
 
 
 class TransactionForm(forms.Form):
@@ -9,4 +10,5 @@ class TransactionForm(forms.Form):
 
 class ConfirmTransactionForm(forms.Form):
     password = forms.CharField(widget=forms.PasswordInput, label='رمز')
+    captcha = CaptchaField()
 
