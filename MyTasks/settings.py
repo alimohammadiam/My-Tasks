@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bank_gateway.apps.BankGatewayConfig',
+    'bank.apps.BankConfig',
 ]
 
 MIDDLEWARE = [
