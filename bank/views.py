@@ -17,6 +17,7 @@ def create_transaction(request):
             from_account_number = form.cleaned_data['from_account']
             to_account_number = form.cleaned_data['to_account']
             amount = form.cleaned_data['amount']
+            description = form.cleaned_data.get('description', '')
 
             from_account = get_object_or_404(Account, account_number=from_account_number)
             to_account = get_object_or_404(Account, account_number=to_account_number)
@@ -28,6 +29,7 @@ def create_transaction(request):
             request.session['from_account'] = from_account.account_number
             request.session['to_account'] = to_account.account_number
             request.session['amount'] = str(amount)
+            request.session['description'] = description
 
             return redirect('bank:confirm_transaction')
 
@@ -40,6 +42,7 @@ def confirm_transaction(request):
     from_account_number = request.session.get('from_account')
     to_account_number = request.session.get('to_account')
     amount = request.session.get('amount')
+    description = request.session.get('description', '')
 
     if not from_account_number or not to_account_number or not amount:
         return redirect('bank:create_transaction')
@@ -60,7 +63,13 @@ def confirm_transaction(request):
                 from_account.save()
                 to_account.save()
 
-                Transaction.objects.create(from_account=from_account, to_account=to_account, amount=amount)
+                Transaction.objects.create(
+                    from_account=from_account,
+                    to_account=to_account,
+                    amount=amount,
+                    is_successful=True,
+                    description=description
+                )
 
                 messages.success(request, 'تراکنش با موفقیت انجام شد')
                 return redirect('bank:create_transaction')

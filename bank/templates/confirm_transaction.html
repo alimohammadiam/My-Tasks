@@ -13,6 +13,7 @@
     <p>شماره حساب مقصد: {{ to_account.account_number }}</p>
     <p>نام صاحب حساب مقصد: {{ to_account.user.username }}</p>
     <p>مبلغ: {{ amount }}</p>
+    <p>توضیحات: {{ description }}</p>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
