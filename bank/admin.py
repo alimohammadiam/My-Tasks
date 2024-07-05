@@ -10,6 +10,7 @@ class AccountAdmin(admin.ModelAdmin):
     ordering = ['account_number']
     list_filter = ['user', 'account_number', "balance"]
     search_fields = ['user', 'account_number', "balance"]
+    readonly_fields = ['account_number']
 
 
 @admin.register(Transaction)

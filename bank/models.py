@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.core.validators import MinValueValidator
+from .utils import create_account_number
 import uuid
 
 # Create your models here.
@@ -8,7 +9,7 @@ import uuid
 
 class Account(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    account_number = models.CharField(max_length=16, unique=True)
+    account_number = models.CharField(max_length=20, unique=True, default=create_account_number, editable=False)
     balance = models.DecimalField(max_digits=10, decimal_places=2, validators=[MinValueValidator(0.0)])
 
 
