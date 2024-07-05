@@ -23,13 +23,13 @@ def create_transaction(request):
 
             if from_account.balance < amount:
                 messages.error(request, 'موجودی ناکافی')
-                return redirect('create_transaction')
+                return redirect('bank:create_transaction')
 
             request.session['from_account'] = from_account.account_number
             request.session['to_account'] = to_account.account_number
             request.session['amount'] = str(amount)
 
-            return redirect('confirm_transaction')
+            return redirect('bank:confirm_transaction')
 
     else:
         form = TransactionForm()

@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('bank/', include('bank_gateway.urls', namespace='bank_gateway'))
+    # path('bank_get/', include('bank_gateway.urls', namespace='bank_gateway')),
+    path('bank/', include('bank.urls', namespace='bank'))
 ]
