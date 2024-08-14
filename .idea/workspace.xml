@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="811af2df-82f2-4b73-98c8-56852bc68513" name="Changes" comment="/">
+      <change beforePath="$PROJECT_DIR$/geteway/bank/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/geteway/bank/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geteway_2/geteway_2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geteway_2/geteway_2/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iMK7srIiNbFOmsX77RoYrHP2Ja" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Yaran/PycharmProjects/MyTasks/geteway/venv/Scripts/python.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yaran\PycharmProjects\MyTasks\bank_gateway\template\bank_gateway" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyTasks" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MyTasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="811af2df-82f2-4b73-98c8-56852bc68513" name="Changes" comment="" />
+      <created>1719294842112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719294842112</updated>
+      <workItem from="1719294846145" duration="5986000" />
+      <workItem from="1719617656919" duration="5785000" />
+      <workItem from="1719939700040" duration="6997000" />
+      <workItem from="1720006466591" duration="7416000" />
+      <workItem from="1720133859912" duration="12124000" />
+      <workItem from="1720196098268" duration="5737000" />
+      <workItem from="1720390304433" duration="254000" />
+      <workItem from="1721286985727" duration="657000" />
+      <workItem from="1723657917793" duration="898000" />
+      <workItem from="1723658982280" duration="1782000" />
+      <workItem from="1723660818923" duration="3345000" />
+    </task>
+    <task id="LOCAL-00001" summary="start app &quot;bank_gateway&quot;">
+      <option name="closed" value="true" />
+      <created>1719295168450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719295168450</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create models 'Account' &amp; 'Transaction'">
+      <option name="closed" value="true" />
+      <created>1719302669261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719302669261</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set administrator">
+      <option name="closed" value="true" />
+      <created>1719701737853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719701737853</updated>
+    </task>
+    <task id="LOCAL-00004" summary="rewrite and change models">
+      <option name="closed" value="true" />
+      <created>1719943787599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719943787599</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":/">
+      <option name="closed" value="true" />
+      <created>1720019487661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720019487661</updated>
+    </task>
+    <task id="LOCAL-00006" summary="start App Bank">
+      <option name="closed" value="true" />
+      <created>1720143852756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720143852756</updated>
+    </task>
+    <task id="LOCAL-00007" summary="set administrator und urls">
+      <option name="closed" value="true" />
+      <created>1720147790419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720147790419</updated>
+    </task>
+    <task id="LOCAL-00008" summary="set CAPTCHA">
+      <option name="closed" value="true" />
+      <created>1720197675719</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720197675719</updated>
+    </task>
+    <task id="LOCAL-00009" summary="generate automatically account_number">
+      <option name="closed" value="true" />
+      <created>1720199149413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720199149413</updated>
+    </task>
+    <task id="LOCAL-00010" summary="upgrade models">
+      <option name="closed" value="true" />
+      <created>1720202270968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720202270968</updated>
+    </task>
+    <task id="LOCAL-00011" summary="/">
+      <option name="closed" value="true" />
+      <created>1720202319561</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720202319561</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start app &quot;bank_gateway&quot;" />
+    <MESSAGE value="create models 'Account' &amp; 'Transaction'" />
+    <MESSAGE value="set administrator" />
+    <MESSAGE value="rewrite and change models" />
+    <MESSAGE value=":/" />
+    <MESSAGE value="start App Bank" />
+    <MESSAGE value="set administrator und urls" />
+    <MESSAGE value="set CAPTCHA" />
+    <MESSAGE value="generate automatically account_number" />
+    <MESSAGE value="upgrade models" />
+    <MESSAGE value="/" />
+    <option name="LAST_COMMIT_MESSAGE" value="/" />
+  </component>
+</project>
