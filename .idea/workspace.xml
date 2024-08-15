@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="811af2df-82f2-4b73-98c8-56852bc68513" name="Changes" comment="/">
+    <list default="true" id="811af2df-82f2-4b73-98c8-56852bc68513" name="Changes" comment="create bank_geteway app">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geteway/bank/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/geteway/bank/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geteway_2/geteway_2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/geteway_2/geteway_2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geteway/bank/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/geteway/bank/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1721286985727" duration="657000" />
       <workItem from="1723657917793" duration="898000" />
       <workItem from="1723658982280" duration="1782000" />
-      <workItem from="1723660818923" duration="3345000" />
+      <workItem from="1723660818923" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="start app &quot;bank_gateway&quot;">
       <option name="closed" value="true" />
@@ -190,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720202319561</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create bank_geteway app">
+      <option name="closed" value="true" />
+      <created>1723664379815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723664379815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +218,7 @@
     <MESSAGE value="generate automatically account_number" />
     <MESSAGE value="upgrade models" />
     <MESSAGE value="/" />
-    <option name="LAST_COMMIT_MESSAGE" value="/" />
+    <MESSAGE value="create bank_geteway app" />
+    <option name="LAST_COMMIT_MESSAGE" value="create bank_geteway app" />
   </component>
 </project>
